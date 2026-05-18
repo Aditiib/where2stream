@@ -13,4 +13,3 @@ def moviesearch(title):
     response = requests.get(url, params=params)
     data = response.json()
     return data['results'][0]['id']
-print(moviesearch("Interstellar"))

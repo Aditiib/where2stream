@@ -19,4 +19,3 @@ def streamingservice(movi_id):
     
     return names
 
-print(streamingservice(157336))
